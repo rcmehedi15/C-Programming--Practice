@@ -1,8 +1,10 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+
 using namespace std;
 
 int* sort_it(int size) {
-    int* array = new int[size]; 
+    int* array = new int[size]; // Dynamic allocation to store the array
     for (int i = 0; i < size; i++) {
         cin >> array[i];
     }
