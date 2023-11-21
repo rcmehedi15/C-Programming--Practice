@@ -1,2 +1,2 @@
- string cb = "HisdfgdfgdfdfsdBhai";
-    cout<<cb.capacity()<<endl;
+   string a = "Mehedi";
+    string b = "Hasan";
