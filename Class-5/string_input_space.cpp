@@ -5,6 +5,7 @@ int main()
     int x;
     cin>>x;
     cin.ignore();
+    // or getchar();
     string s;
     getline(cin,s); 
     cout<<x<<endl;
