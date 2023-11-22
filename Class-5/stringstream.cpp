@@ -4,10 +4,10 @@ int main()
 {
     string s;
     getline(cin, s);
-    stringstream ss(s);
-    string word;
+    stringstream fullString(s);
+    string OneWord;
     int wordCount =0;
-    while (ss >> word)
+    while (fullString >> OneWord)
     {
         // cout << word << endl;
        wordCount++;
