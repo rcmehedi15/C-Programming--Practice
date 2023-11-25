@@ -6,18 +6,15 @@ int main()
     string inputString;
     getline(cin, inputString);
 
-    // Use stringstream to extract words from the input
     stringstream ss(inputString);
     string word;
 
-    // Flag to indicate if "Jessica" is found
     bool findJessica = false;
 
-    // Check each word in the string
     while (ss >> word) {
         if (word == "Jessica") {
             findJessica = true;
-            break;  // No need to continue checking once found
+            break;  
         }
     }
 
